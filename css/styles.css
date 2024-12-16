@@ -4,7 +4,7 @@ body, header, footer {
     padding: 0;
     box-sizing: border-box;
   }
-
+/*THE HOME PAGE START*/
 /* header styling */
 .header-container{
     position: fixed; /* Make the header fixed */
@@ -19,9 +19,11 @@ body, header, footer {
     padding:1px 3%;
     border-bottom: 1px solid black;
 }
+
 .navigator-container li{
     display: inline-block;
 }
+
 /* body styling */
 .main-container{
     border: 1px solid black;
@@ -32,6 +34,7 @@ body, header, footer {
     min-height: 300px;
     overflow: hidden; /* Prevent overflow from the main container */
 }
+
 .homepage-text {
     font-size: larger;
 
@@ -67,7 +70,7 @@ body{
     padding-top: 100px; /* Adjust based on the height of your header */
     padding-bottom: 100px; /* Adjust based on the height of your footer */
 }
-/* resize the image of me */
+
 .professional-image{
     max-width: 280px;
 }
@@ -93,4 +96,37 @@ body{
 
 .social-links p, a, img{
     max-width: 25px;
+}
+
+/*THE HOME PAGE FINISH*/
+
+/*THE RESUME PAGE BODY*/
+
+.resume-page{
+    background-color: black;
+}
+.resume-container{
+    border: 1px solid black;
+    background-color: gainsboro;
+    width: 70%;
+    margin: 0% auto;
+    padding: 10px; 
+    overflow: auto; 
+    min-width: 300px;
+
+    /* display: flex; */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; 
+    flex-direction: column; /* Stack items vertically */
+}
+.resume-heading{
+    border: 1px solid black;
+    background-color: gainsboro;
+    width: 70%;
+    margin: 0% auto;
+    padding: 10px; 
+}
+.resume-container img {
+    min-width: 800px;
 }
