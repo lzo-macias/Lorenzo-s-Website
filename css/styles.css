@@ -1,0 +1,96 @@
+/* browser reset */
+body, header, footer {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+/* header styling */
+.header-container{
+    position: fixed; /* Make the header fixed */
+    top: 0; /* Attach to the top */
+    z-index: 10; /* Keep it on top of other content */
+    line-height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightgray;
+    padding:1px 3%;
+    border-bottom: 1px solid black;
+}
+.navigator-container li{
+    display: inline-block;
+}
+/* body styling */
+.main-container{
+    border: 1px solid black;
+    width: 70%;
+    margin: 0% auto;
+    /* background-color: rgb(226, 27, 163); */
+    padding:0 40px 30px 40px;
+    min-height: 300px;
+    overflow: hidden; /* Prevent overflow from the main container */
+}
+.homepage-text {
+    font-size: larger;
+
+}
+
+.homepage-text {
+    padding-right: 100px;
+}
+
+.main-container h2{
+    text-decoration: underline;
+}
+
+.main-container img{
+    float: right;
+    margin-left: 15px;
+}
+
+.image-and-links{
+    float: right;
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+
+.homepage-links p{
+    border: 1px solid black;
+    margin: 0% auto;
+    text-align: center;
+    margin-left: 15px;
+}
+
+body{
+    padding-top: 100px; /* Adjust based on the height of your header */
+    padding-bottom: 100px; /* Adjust based on the height of your footer */
+}
+/* resize the image of me */
+.professional-image{
+    max-width: 280px;
+}
+
+/* footer styling */
+.footer-container{
+    position: fixed; /* Make the footer fixed */
+    bottom: 0; /* Attach the footer to the bottom of the viewport */
+    /* z-index: 5; Ensure it's below the header but still above other content */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightgray;
+    height: 40px;
+    padding:5px 3%;
+    border-top: 1px solid black;
+}
+
+.social-links p{
+    display: inline-block;
+}
+
+.social-links p, a, img{
+    max-width: 25px;
+}
