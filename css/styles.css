@@ -104,9 +104,11 @@ body{
 
 .resume-page{
     background-color: black;
+
 }
 .resume-container{
     border: 1px solid black;
+    border-top: 0px;
     background-color: gainsboro;
     width: 70%;
     margin: 0% auto;
@@ -114,19 +116,33 @@ body{
     overflow: auto; 
     min-width: 300px;
 
-    /* display: flex; */
     display: flex;
     justify-content: center; /* Center horizontally */
     align-items: center; 
     flex-direction: column; /* Stack items vertically */
 }
+
+.big-resume-container{
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+
+}
 .resume-heading{
-    border: 1px solid black;
+    /* border: solid black; */
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0px;
     background-color: gainsboro;
     width: 70%;
     margin: 0% auto;
     padding: 10px; 
+    min-width:800px;
+    max-width:800px;
 }
-.resume-container img {
+
+.resume-links li{
+    display: inline-block;
+}
+.resume-container {
     min-width: 800px;
 }
