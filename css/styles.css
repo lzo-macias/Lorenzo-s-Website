@@ -146,3 +146,31 @@ body{
 .resume-container {
     min-width: 800px;
 }
+
+.creative-page {
+    background-color: black;
+    text-align: center;
+}
+
+.creative-page h2{
+    color: white;
+    text-align: center;
+}
+
+.creative-page img{
+    min-width: 600px;
+    display: block;
+    margin: 20px auto;
+}
+
+.creative-page-content {
+    display: flex;
+    border-bottom: 0px;
+    margin: 0% auto;
+    padding: 10px; 
+    justify-content: center; 
+    flex-direction: column; /* Stack items vertically */
+
+    min-width:800px;
+    max-width:800px;
+}
