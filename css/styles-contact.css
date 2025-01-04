@@ -1,0 +1,72 @@
+body {
+    background-color: rgb(245, 200, 200);
+}
+.big-contact-section{
+    position: absolute;
+    left: 35vw;
+    width:60vw;
+    height:90vh;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2vh;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+.big-contact-section section {
+    padding: 2vh;
+    /* border: 1px solid rgb(217, 22, 188); */
+    margin: 2vh;
+    width: 200%;
+    position: relative;
+    right: 15vw;
+}
+
+.big-contact-section input, textarea{
+    width: 150%;
+    height: 3vh;
+}
+
+.message textarea{
+    height: 40vh;
+    text-align: left;
+}
+
+.message textarea::placeholder {
+    text-align: left;
+    vertical-align: top;
+    padding-top: 0.5vh; 
+}
+
+.big-contact-section button {
+    position: absolute;
+    align-self: center; /* Center the button horizontally */
+    left: 30vw;
+}
+
+/* .smaller-contact-section {
+    position: absolute;
+    width: 40vw;
+    border: 1px solid black;
+} */
+.smaller-contact-section {
+    position: absolute;
+    top: 15vh;
+    width: 40vw;
+    display: grid;
+    grid-template-columns: repeat(2, 18vw); 
+    grid-template-rows: repeat(2, 30vh); 
+    gap: 20px; 
+    padding: 20px; 
+    z-index: 2;
+}
+.smaller-contact-section section {
+    border: 1px solid black;
+    padding: 10px; /* Optional: Adds space inside each section */
+    text-align: center; /* Optional: Centers text in each section */
+    z-index: 2;
+    /* aspect-ratio: 1 / 1; */
+    background-color: rgba(255,255,255,255);
+}
